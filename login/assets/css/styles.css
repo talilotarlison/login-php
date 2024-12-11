@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: Hermit, sans-serif;
+  font-variant-caps: normal;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+label {
+  color: #4269e1;
+}
+
+label,
+input {
+  display: block;
+  margin: 10px;
+  font-weight: 300;
+  width: 350px;
+}
+
+
+input {
+  height: 45px;
+  color: black;
+}
+
+form {
+  border: solid 1px gray;
+  border-radius: 10px;
+  padding: 70px 10px;
+}
+
+.botao {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.recuperar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+button {
+  margin: 5px;
+  text-align: center;
+}
+
+.contener {
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+}
+
+.logo {
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 24px;
+  padding: 5px;
+  margin: 5px;
+}
+
+a {
+  color: #2d63c8;
+  margin: 20px;
+}
+
+a:hover {
+  opacity: 0.3;
+}
+
+input:focus,
+select:focus {
+  border: 1px solid #2d63c8;
+  outline: 0;
+}
+
+/* botao do site -> https://codebeautify.org/html-button-generator*/
+
+
+button{
+  color: #ffffff;
+  background-color: #2d63c8;
+  font-size: 19px;
+  border: 1px solid #2d63c8;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: #2d63c8;
+  background-color: #ffffff;
+}
+
+.botao>a#Cadastro {
+  background-color: #ffffff;
+  color: #2d63c8;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.botao>a#Cadastro:hover {
+  opacity: 0.5;
+  background-color: #f3f1f1;
+
+}
+
+.erro {
+  color: red;
+  text-align: center;
+}
+
